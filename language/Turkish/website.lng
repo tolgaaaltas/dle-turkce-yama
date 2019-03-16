@@ -97,7 +97,7 @@ $lang = array (
 'enter_login3'			=>	"Kullanıcı adını doğrulayın",
 'enter_login4'			=>	" Kullanıcı adınızı sadece bir kez seçebileceğinizi unutmayın, bu nedenle dikkatli olun.",
 'reg_err_44'			=>	"<li> Bu kullanıcı adı zaten kullanılıyor. Lütfen, başka bir kullanıcı adı seçiniz. </li>",
-'add_err_10'			=>	"Bu makale moderasyon beklemiyor, ve sitenin bu bölümünden düzenlenemez. Buradan sadece moderasyon bekleyen makalelerinizi düzenleyebilirsiniz.",
+'add_err_10'			=>	"Bu makale onaylanmayı beklemiyor, ve sitenin bu bölümünden düzenlenemez. Buradan sadece onaylanmayı bekleyen makalelerinizi düzenleyebilirsiniz.",
 'comments_empty'		=>	"Yorum yok",
 // 11.0
 
@@ -117,7 +117,7 @@ $lang = array (
 // 10.5
 'reply_comments'	=>	"Yoruma cevap yaz",
 'reply_comments_1'	=>	"Cevapla",
-'reply_error_1'		=>	"Bu yorum cevap yazamazsınız",
+'reply_error_1'		=>	"Bu yoruma cevap yazamazsınız",
 'reply_error_2'		=>	"Yorum bulunamadı",
 'reply_descr'		=>	"Kullanıcının yaptığı yorum için cevap girin",
 'reply_name'		=>	"Adınız:",
@@ -141,7 +141,7 @@ $lang = array (
 
 // 10.3
 'system_default'	=>	"Varsayılan sistem ayarları",
-'social_err_1'		=>	"Sosyal ağ hesabınızdan kullanıcı bilgileriniz alınamadı. Veya belirtilen yanlış anahtar değerleri nedeniyle bağlantı kabul edilmiyor olabilir.",
+'social_err_1'		=>	"Sosyal ağ hesabınızdan kullanıcı bilgileriniz alınamadı veya belirtilen yanlış anahtar değerleri nedeniyle bağlantı kabul edilmiyor olabilir.",
 'social_err_2'		=>	"Belirtilen sosyal ağ desteklenmiyor",
 'social_err_3'		=>	"Sosyal ağ hesabınızdan kullanıcı bilgileriniz alınamadı",
 'social_login_ok'	=>	"Başarıyla giriş yaptınız. Şimdi siteye yönlendirileceksiniz. Eğer hata alırsanız, pencereyi kapatıp tarayıcınızı yeniden başlatın.",
@@ -171,8 +171,8 @@ $lang = array (
 'mail_complaint'	=>  "Siteden yeni bir şikayet bildirimi",
 'mail_complaint_1'	=>  "Bu siteden gönderildi: {site}\n\nSitenizde yeni bir şikayet yapıldı.\n\nŞikayeti görüntülemek ve herhangi bir işlem yapmak için, sitenizin admin paneline girin ve 'Tüm Şikayetler' bölümüne gidin.",
 'reg_err_28'        =>  "Ne yazık ki sitemize kaydınız yapılamıyor, bu IP adresi daha önce sitemizde spam amaçlı kullanıldığı için kaydedildi.Eğer spam olarak olmadığına inanıyorsanız, internet sağlayıcınız aracılığı ile IP adresinizi değiştirirseniz kayıt mümküm olacaktır.",
-'reg_err_29'        =>  "Ne yazık ki sitemize kaydınız yapılamıyor, bu E-Mail adresi daha önce sitemizde spam amaçlı kullanıldığı için kaydedildi. Eğer spam olarak olmadığına inanıyorsanız, internet sağlayıcınız aracılığı ile IP adresinizi değiştirirseniz kayıt mümküm olacaktır.",
-'reg_err_34'        =>  "<li>Ne yazık ki sitemize mesaj gönderemezsiniz, çünkü bu E-Mail veya IP adresi daha önce sitemizde spam amaçlı kullanıldığı kaydedildi. Eğer spam olarak olmadığına inanıyorsanız, internet sağlayıcınız aracılığı ile IP adresinizi değiştirirseniz kayıt mümküm olacaktır.</li>",
+'reg_err_29'        =>  "Ne yazık ki sitemize kaydınız yapılamıyor, bu e-posta adresi daha önce sitemizde spam amaçlı kullanıldığı için kaydedildi. Eğer spam olarak olmadığına inanıyorsanız, internet sağlayıcınız aracılığı ile IP adresinizi değiştirirseniz kayıt mümküm olacaktır.",
+'reg_err_34'        =>  "<li>Ne yazık ki sitemize mesaj gönderemezsiniz, çünkü bu e-posta veya IP adresi daha önce sitemizde spam amaçlı kullanıldığı kaydedildi. Eğer spam olarak olmadığına inanıyorsanız, internet sağlayıcınız aracılığı ile IP adresinizi değiştirirseniz kayıt mümküm olacaktır.</li>",
 // 10.0
 
 // 9.8
@@ -220,7 +220,7 @@ $lang = array (
 'n_save_ok'			=>	"Değişiklikler başarıyla kaydedildi. Sayfa yenilensin mi?",
 'addnews_xf_alert'	=>	"Gerekli tüm alanlar doludrulmadı",
 'editnews_error'	=>	"Bu makaleyi düzenleme yetkiniz bulunmuyor.",
-'login_metod'		=>	"K.Adı:",
+'login_metod'		=>	"Kullanıcı Adı:",
 'login_err_3'		=>	"Dikkat, siteye giriş yapılamadı.Geçersiz bir E-posta ya da şifre girmiş olabilirsiniz.",
 'xf_notig'			=>	"Zorunlu",
 'anti_modified'		=>  "Mevcut kayıt ile uyuşmuyor",
@@ -236,8 +236,8 @@ $lang = array (
 
 // 9.3
 'change_mail_subj'	=>	"E-posta adresi değiştirme isteği",
-'change_mail'		=>	"<li>Sayın Ziyaretçi! E-Mail Adresini Değiştirdiniz. Değiştirdiğiniz E-posta adresi için geçerli bir E-posta adresi kullanmanız gerekiyor . 10 dakika içinde sonraki talimatları içeren bir e-posta alacaksınız. Bu süre içinde onay mektubu gelmediyse, lütfen başka bir E-posta adresini kullanarak yeniden deneyin veya site yöneticinize başvurun. Dikkat! Ücretsiz posta sunucularında E-Mailin ulaşması ile ilgili sorunlar olabilir.</li>",
-'change_mail_1'		=>	"Sayın Ziyaretçi! Değiştirmek istediğiniz E-posta adresi:",
+'change_mail'		=>	"<li>Sayın Ziyaretçi! E-posta adresini değiştirdiniz. Değiştirdiğiniz e-posta adresi için geçerli bir e-posta adresi kullanmanız gerekiyor . 10 dakika içinde sonraki talimatları içeren bir e-posta alacaksınız. Bu süre içinde onay mektubu gelmediyse, lütfen başka bir E-posta adresini kullanarak yeniden deneyin veya site yöneticinize başvurun. Dikkat! Ücretsiz posta sunucularında E-Mailin ulaşması ile ilgili sorunlar olabilir.</li>",
+'change_mail_1'		=>	"Sayın Ziyaretçi! Değiştirmek istediğiniz e-posta adresi:",
 'change_mail_2'		=>	"Kabul edildi.",
 'change_mail_3'		=>	"Sitede E-posta adresinizi değiştirmek için bağlantıya tıklayın:",
 'change_mail_4'		=>	"Siteye Giriş Yapmamışsınız. E-Mail adresinizi değiştirmek için ilk önce sitede Kullanıcı Adı ve Şifrenizi girin, sonrada E-Mail adresinizi değiştirmek için bu bağlantıya tıklayın.",
@@ -268,8 +268,8 @@ $lang = array (
 'max_votes'			=>	"Toplam oy sayısı:",
 'vote_ok'			=>	"Oyunuz için teşekkürler.",
 'bb_list_item'		=>  "Listeye öğe ekleyin. Eklemeyi sonlandırmak için boş öğe girin.",
-'message_pm_4'		=>	"Makale moderasyon bildirimi",
-'message_pm_5'		=>	"Moderasyon onayı:",
+'message_pm_4'		=>	"Makale onay bildirimi",
+'message_pm_5'		=>	"Makale onayı:",
 'message_pm_6'		=>	"Bu mesaj size moderatör tarafından gönderildi:",
 'btn_notice'		=>  "Yazara bildir",
 'p_send'			=>	"Gönder",
@@ -439,7 +439,7 @@ $lang = array (
 // 6.0
 
 // 5.7
-'mail_news' 	   =>   "Moderasyon bekleyen makale var",
+'mail_news' 	   =>   "Onay bekleyen makale var",
 'mail_comments'	   =>   "Yeni yorum var",
 'bb_t_leech'	   =>	"Korumalı link ekle",
 // 5.7
@@ -651,7 +651,7 @@ $lang = array (
 'add_or'		=>	"veya",
 'add_al_com'	=>	"Yorumlara izin ver",
 'add_al_m'		=>	"Anasayfada yayımla",
-'add_al_ap'		=>	"Moderasyon olmadan yayımla",
+'add_al_ap'		=>	"Onaylamadan yayımla",
 'add_al_fix'	=>	"Makaleti sabitle",
 
 'bb_url'                =>      "Bağlantının Tam Adresini Girin",
